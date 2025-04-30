@@ -1,0 +1,4 @@
+repository "Movimieto rectilineo/Movimieto rectilineo@1375735091562@cloud"
+  path "/"
+    br "/main"
+    co "/main"

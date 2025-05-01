@@ -7,7 +7,6 @@ using UnityEngine;
 
         void Update()
         {
-            // Use the normalized direction vector
-            this.transform.Translate(goal.normalized * speed * Time.deltaTime);
+           
         }
     }

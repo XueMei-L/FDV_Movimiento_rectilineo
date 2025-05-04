@@ -55,7 +55,7 @@ public class WaypointFollower : MonoBehaviour
             Space.World);
 
         // Mostrar la line de waypoint al llegar
-        Debug.DrawRay(transform.position, direction, Color.red);
+        // Debug.DrawRay(transform.position, direction, Color.red);
 
         // 8.Cambiar al siguiente waypoint al llegar
         if (Vector3.Distance(transform.position, currentWaypoint.position) <= accuracy)
